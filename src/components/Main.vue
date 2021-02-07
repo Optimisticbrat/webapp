@@ -8,7 +8,7 @@
           contain
           height="200"
         />
-        <v-row justify="center">
+        <v-row justify="center" class="companyname">
           {{ env.title }}
         </v-row>
       </v-col>
@@ -23,8 +23,8 @@ export default {
   data: () => ({
     env: {
       title: process.env.VUE_APP_TITLE,
-      url: process.env.VUE_APP_URL,
-    },
-  }),
+      url: process.env.VUE_APP_URL
+    }
+  })
 };
 </script>
