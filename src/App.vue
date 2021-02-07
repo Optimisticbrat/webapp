@@ -5,10 +5,10 @@
       <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
       <v-toolbar-title class="d-flex align-center">
         <v-img
-          alt="Logo"
+          alt="Logo_new"
           class="shrink mr-2"
           contain
-          src="./assets/logo.png"
+          src="./assets/logo_new.png"
           transition="scale-transition"
           width="30"
         />{{ details.title }}
